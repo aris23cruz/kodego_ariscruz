@@ -11,4 +11,16 @@ fun main(){
 
     //array size
     println(numbers.size)
+
+    //how to change the elements in an array
+    println(names[0])
+    println(names[1])
+    println(names[2])
+    //names[1] = "Matthews"
+    //another way
+    names.set(1,"Matthew")
+    println(names.get(0))
+    println(names.get(1))
+    println(names.get(2))
+
 }
