@@ -10,4 +10,16 @@ fun main(){
     //display names[0]
     println(names[0])
 
+    //add names to arraylist
+    names.add("Mary")
+    names.add("Jenny")
+    names.add("Mark")
+    names.add("Paul")
+    names.add("Bryan")
+    names.add("Roel")
+
+    //traverse
+    for(value in names){
+        print(" $value" )
+    }
 }
