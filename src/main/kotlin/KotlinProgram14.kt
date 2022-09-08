@@ -7,17 +7,17 @@ fun main(){
 
         ctr++
     }
-    //display new array values using readln()
-    var ctr : Int = 0
-    while (ctr < names.size) {
-        println("Enter new value for index $ctr")
-
-        ctr++
-    }
-    var ctr2 : Int = 0
-    while(ctr2 < names.size){
-        println(names[ctr2])
-        ctr2++
-    }
+//    //display new array values using readln()
+//    var ctr : Int = 0
+//    while (ctr < names.size) {
+//        println("Enter new value for index $ctr")
+//
+//        ctr++
+//    }
+//    var ctr2 : Int = 0
+//    while(ctr2 < names.size){
+//        println(names[ctr2])
+//        ctr2++
+//    }
 
 }
