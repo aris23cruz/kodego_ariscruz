@@ -4,7 +4,7 @@ fun main(){
 
     //getting value from map
     println(map[1])
-    println(map.get[2])
+    println(map.get(2))
 
     //traversing keys
     for (key in map.keys){
