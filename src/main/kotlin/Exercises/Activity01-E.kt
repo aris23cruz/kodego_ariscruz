@@ -23,6 +23,6 @@ fun main(){
         word1 = word1.replace(remove,"")
         word2 = word2.replace(remove,"")
     }
-    println("The unique character fot 1st word $word1")
-    println("The unique character fot 2nd word $word2")
+    println("The unique character for 1st word $word1")
+    println("The unique character for 2nd word $word2")
 }
