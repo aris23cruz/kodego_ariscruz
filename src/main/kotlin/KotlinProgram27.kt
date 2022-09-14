@@ -6,6 +6,7 @@ fun main(){
 //    var anna = Person()
 //    anna.name = "Anna"
 //    println(anna.name)
+
     var joe = Person("joe",21)//instantiation
     println("**********")
     println("${joe.name}'s current age is ${joe.age}")
