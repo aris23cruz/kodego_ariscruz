@@ -1,6 +1,6 @@
 fun main(){
     //println(total(2,4,4,6))
-    println(total())
+    println(total2(2,4,4,6,7,1,3,2,4))
 
 }
 
