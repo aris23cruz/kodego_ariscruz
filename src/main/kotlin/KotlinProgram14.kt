@@ -4,7 +4,6 @@ fun main(){
     var ctr : Int = names.size
     while (ctr < names.size){
         println(names[ctr])
-
         ctr++
     }
 //    //display new array values using readln()
