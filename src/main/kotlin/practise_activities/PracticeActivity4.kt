@@ -11,7 +11,7 @@ fun main(){
     var PriceRange: Int = readln().toInt()
     println("Enter Price: $PriceRange")
     println("Price of modem router is $PriceRange")
-
+//Conditions
     if((PriceRange >= 0)&&(PriceRange <= 10000)){
         var NetPrice1: Int = (PriceRange)
         println("0% Discount")
