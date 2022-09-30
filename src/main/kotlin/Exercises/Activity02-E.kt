@@ -1,3 +1,5 @@
+package Exercises
+//Implement Activity 02 - B using Classes.
 fun main(){
     var bookRequest = Library(200, "John Cruz", "09/17/22")
     bookRequest.inputDetails("Pedro Penduko")
