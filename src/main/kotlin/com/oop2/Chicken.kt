@@ -1,4 +1,11 @@
 package com.oop2
 
-class Chicken {
+class Chicken: Animal() {
+    override fun walk() {
+        println("A chicken walks on two legs")
+    }
+
+    override fun makeSound() {
+        println("Tik Tila Ok")
+    }
 }
