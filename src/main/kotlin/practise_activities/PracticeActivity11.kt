@@ -1,15 +1,18 @@
 fun main(){
-    try {
-        println("Enter Product Name:")
-        var product = readln().lowercase()
-        println("Enter Price:")
-        var price: Int = readln().toInt()
-        var productSales = SaleDiscount(product, price)
-        productSales.discount()
-        println("Thank You for Shopping!")
-    }catch (e:NumberFormatException){
-        println(e)
-        println("Enter Valid Number")
+    while (true) {
+        try {
+            println("Enter Product Name:")
+            var product = readln().uppercase()
+            println("Enter Price:")
+            var price: Int = readln().toInt()
+            var productSales = SaleDiscount(product, price)
+            productSales.discount()
+            println("Thank You for Shopping!")
+        } catch (e: NumberFormatException) {
+            println(e.message)
+            println("Enter Valid Price")
+        }
+        break
     }
 }
 
@@ -50,4 +53,12 @@ class SaleDiscount(var product: String, var price: Int){
             }
         return 0.0
     }
+    fun String.checkIntOrString(): Any {
+        var v = toIntOrNull()
+        return when(v) {
+            null -> "false"
+            else -> "true"
+        }
+    }
+
 }
