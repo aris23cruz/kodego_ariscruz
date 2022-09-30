@@ -1,7 +1,4 @@
 package Exercises
-
-import kotlin.math.absoluteValue
-
 fun main(){
 //Implement Activity 01 - C using data structure.
 //You are tasked to automate an inventory system for a grocery.
@@ -10,9 +7,9 @@ fun main(){
 // You are also tasked to group the items in categories to help manage the grocery.
 // Use the proper data types.
     println("***Grocery Inventory***")
-    var category = mapOf(1 to "Can Goods",2 to "Beverages",3 to "Meat",4 to "Dry Goods",5 to "EXIT")
-    var inventory = mutableMapOf<Int,String>()
-    var mainMenu = mapOf(1 to "Add to Inventory",2 to "Remove from Inventory",3 to "EXIT" )
+    val category = mapOf(1 to "Can Goods",2 to "Beverages",3 to "Meat",4 to "Dry Goods",5 to "EXIT")
+    val inventory = mutableMapOf<Int,String>()
+    val mainMenu = mapOf(1 to "Add to Inventory",2 to "Remove from Inventory",3 to "EXIT" )
 
     while (true){
         //Main Menu
@@ -21,7 +18,7 @@ fun main(){
             println(value)
         }
         println("**************")
-        var inputMenu: Int = readln().toInt()
+        val inputMenu: Int = readln().toInt()
         if (inputMenu == 1){
             println("Add to Inventory")
             println("***************")
