@@ -1,10 +1,6 @@
 package Exercises
 //Implement Activity 02 - A using Classes.
 fun main(){
-//    println("Enter Student Name[Last,First,MI]")
-//    val name: String = readln().uppercase()
-//    println("Enter Student Grade")
-//    val grade: Int = readln().toInt()
     val studentStatus = StudentDirectory("John", 85)
     studentStatus.studentListing()
     studentStatus.gradingSystem()
