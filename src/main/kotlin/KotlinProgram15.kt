@@ -10,7 +10,7 @@ fun main(){
     while(row<3){
         var column : Int = 0
         while(column <3){
-            print( "${num[row][column]}" )
+            print( " ${num[row][column]} " )
             column++
         }
         println()
