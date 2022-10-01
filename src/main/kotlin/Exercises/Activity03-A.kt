@@ -33,9 +33,15 @@ fun main() {
    try {
        println("Enter Your 1st Word")
        var word1: String = readln()
+       if(word1.isEmpty()) {
+           throw Exception()
+       }
        println("Enter Your 2nd  Word")
        var word2: String = readln()
        var combine: String = ""
+       if (word2.isEmpty()){
+           throw Exception()
+       }
 
        for (unique1 in word1.indices) {
            for (element in word2) {
@@ -59,7 +65,13 @@ fun main() {
     try {
         println("Enter a Word:")
         var word3: String = readln().toString()
+        if (word3.isEmpty()){
+            throw Exception()
+        }
         var word4 = word3.reversed()
+        if (word4.isEmpty()){
+            throw Exception()
+        }
         //to check if the word is a palindrome
         if (word4 == word3) {
             println("$word3 is a Palindrome")
