@@ -1,4 +1,4 @@
-package Exercises
+package exercises
 //Implement Activity 02 - A using Classes.
 fun main(){
     val studentStatus = StudentDirectory("John", 85)

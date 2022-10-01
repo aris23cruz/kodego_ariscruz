@@ -1,4 +1,4 @@
-package Exercises
+package exercises
 fun main(){
     //Using Activity 01 - B and Implement a process where someone can borrow a book.
     //You are tasked to automate a school’s library. Identify the items that can be borrowed in a

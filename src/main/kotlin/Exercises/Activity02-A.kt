@@ -1,6 +1,4 @@
-package Exercises
-
-import com.oop.Student
+package exercises
 
 fun main() {
     //Implement Activity 01 -  A using data structure.

@@ -1,4 +1,4 @@
-package Exercises
+package exercises
 fun main(){
     println("***Inventory System***")
     //conditions

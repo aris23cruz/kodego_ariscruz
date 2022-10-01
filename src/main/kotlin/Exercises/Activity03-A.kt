@@ -1,4 +1,4 @@
-package Exercises
+package exercises
 
 fun main() {
     var amount: Double = 0.0
